@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+}
+.firtsValueCard {
+  position: relative;
+  top: 80px;
+  left: 40px;
+
+  width: 232px;
+  height: 328px;
+  background-color: #fdfdff;
+  border: solid 1px #9095ff;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 11px;
+  color: #838383;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  padding-left: 5px;
+}
+
+input {
+  width: 203px;
+  height: 29px;
+  border-radius: 5px;
+  border: solid 1px #9095ff;
+  padding-left: 8px;
+  outline-color: #434cf4;
+}
+
+input::placeholder {
+  color: grey; /* выбирайте нужный вам цвет */
+}
